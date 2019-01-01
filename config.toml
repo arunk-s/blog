@@ -1,7 +1,7 @@
 baseURL = "https://arunsori.me/"
 languageCode = "en-us"
 title = "Arun's Blog"
-theme = "hermit"
+theme = "hermit_mod"
 
 [params]
   dateform        = "Jan 2, 2006"
