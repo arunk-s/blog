@@ -22,7 +22,7 @@ A very good overview of this new release is on the official [Protobuf Go referen
 Most notably, the new import path for APIv2 is changed to `google.golang.org/protobuf` vs the old one `github.com/golang/protobuf/protoc-gen-go`.
 As mentioned in the original release post, the old API v1 versions will start from the current [`v1.3.5`](https://github.com/golang/protobuf/releases/tag/v1.3.5) where as the new APIv2 is starting from [`v1.20.0`](https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.20.0). 
 
-Also `protoc-gen-go` [APIv1](github.com/golang/protobuf) is implemented in the terms of [APIv2](https://github.com/protocolbuffers/protobuf-go) at version [`1.4.0`](https://github.com/golang/protobuf/releases/tag/v1.4.0-rc.4) which means just upgrading to the new versions of old API will allow the programs to use the new API.
+Also `protoc-gen-go` [APIv1](https://github.com/golang/protobuf) is implemented in the terms of [APIv2](https://github.com/protocolbuffers/protobuf-go) at version [`1.4.0`](https://github.com/golang/protobuf/releases/tag/v1.4.0-rc.4) which means just upgrading to the new versions of old API will allow the programs to use the new API.
 
 ### Gotchas(that I _could_ found)
 If your project uses a external protobuf configuration/management tool like [`prototool`](https://github.com/uber/prototool), it might take some time to get them to support the new APIv2. For example with prototool, the changed behaviour on new API w.r.t. [`go_package`](https://developers.google.com/protocol-buffers/docs/reference/go-generated#package) creates [problems](https://github.com/uber/prototool/issues/549).
