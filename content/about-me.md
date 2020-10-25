@@ -8,4 +8,4 @@ Hey! I write code.
 
 Currently working as Data engineer @[messagebird](https://messagebird.com).
 
-I'm love to dabble in Distributed Engineering, Data processing and streaming.
+I love to dabble in Distributed Engineering, Data processing and streaming.
