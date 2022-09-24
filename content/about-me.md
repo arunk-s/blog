@@ -6,6 +6,6 @@ draft: false
 
 Hey! I write code.
 
-Currently working as Data engineer @[messagebird](https://messagebird.com).
+Currently working as Senior Backend Engineer @[gitlab](https:/gitlab.com).
 
-I love to dabble in Distributed Engineering, Data processing and streaming.
+I love to dabble in Distributed Engineering, Data streaming and Observability.
